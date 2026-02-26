@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration - Lab 02</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<header>
+    <h1>Student Registration Form</h1>
+
+    <nav>
+        <a href="../index.html">Home</a> |
+        <a href="profile.html">Profile</a> |
+        <a href="schedule.html">Schedule</a>
+    </nav>
+
+    <hr>
+</header>
+
+<section>
+
+    <form action="#" method="post">
+
+        <fieldset>
+            <legend><strong>Personal Information</strong></legend>
+
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required><br><br>
+
+            <label for="regno">Registration Number:</label><br>
+            <input type="text" id="regno" name="regno" required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><strong>Academic Information</strong></legend>
+
+            <label for="course">Select Course:</label><br>
+            <select id="course" name="course" required>
+                <option value="">-- Choose Course --</option>
+                <option value="web">Web Technologies</option>
+                <option value="db">Database Systems</option>
+                <option value="ds">Data Structures</option>
+                <option value="se">Software Engineering</option>
+            </select>
+            <br><br>
+
+            <label>Semester:</label><br>
+            <input type="radio" name="semester" value="1" required> 1
+            <input type="radio" name="semester" value="2"> 2
+            <input type="radio" name="semester" value="3"> 3
+            <input type="radio" name="semester" value="4"> 4
+            <br><br>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><strong>Agreement</strong></legend>
+
+            <input type="checkbox" id="terms" required>
+            <label for="terms">I agree to the Terms and Conditions</label>
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear Form">
+
+    </form>
+
+</section>
+
+<footer>
+    <hr>
+    <p>© 2026 Aryan Khan | UET Peshawar</p>
+</footer>
+
+</body>
+</html>
