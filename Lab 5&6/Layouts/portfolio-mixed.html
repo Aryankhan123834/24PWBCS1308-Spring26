@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Portfolio Layout</title>
+
+<link rel="stylesheet" href="/Styles/base.css">
+<link rel="stylesheet" href="/Styles/grid.css">
+<link rel="stylesheet" href="/Styles/media-queries.css">
+
+<style>
+
+.portfolio{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+padding:30px;
+}
+
+.project{
+background:white;
+padding:25px;
+border-radius:8px;
+box-shadow:0 3px 8px rgba(0,0,0,0.2);
+transition:0.3s;
+}
+
+.project:hover{
+transform:translateY(-5px);
+}
+
+.project h3{
+margin-top:0;
+}
+
+.project p{
+color:#555;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Portfolio Layout</h1>
+
+<div class="portfolio">
+
+<div class="project">
+<h3>Project 1</h3>
+<p>Web design project using HTML and CSS.</p>
+</div>
+
+<div class="project">
+<h3>Project 2</h3>
+<p>Responsive website layout.</p>
+</div>
+
+<div class="project">
+<h3>Project 3</h3>
+<p>JavaScript interactive webpage.</p>
+</div>
+
+<div class="project">
+<h3>Project 4</h3>
+<p>Flexbox card layout.</p>
+</div>
+
+<div class="project">
+<h3>Project 5</h3>
+<p>CSS Grid photo gallery.</p>
+</div>
+
+<div class="project">
+<h3>Project 6</h3>
+<p>Responsive dashboard design.</p>
+</div>
+
+</div>
+
+</body>
+</html>
