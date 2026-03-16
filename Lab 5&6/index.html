@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>CSS Layout Techniques Lab</title>
 
-<link rel="stylesheet" href="/Styles/base.css">
-<link rel="stylesheet" href="/Styles/display.css">
-<link rel="stylesheet" href="/Styles/flexbox.css">
-<link rel="stylesheet" href="/Styles/grid.css">
+<head>
+
+<title>CSS Layout Lab 05 & 06</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:40px;
+background:#f5f5f5;
+}
+
+h1{
+text-align:center;
+}
+
+.container{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+ul{
+list-style:none;
+padding:0;
+}
+
+li{
+margin:8px 0;
+}
+
+a{
+text-decoration:none;
+color:#1a73e8;
+font-size:18px;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+.section{
+background:white;
+padding:20px;
+border-radius:8px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+</style>
 
 </head>
 
@@ -14,45 +57,50 @@
 
 <h1>CSS Layout Techniques & Responsive Design</h1>
 
-<h2>Layouts</h2>
-<ul>
-<li><a href="/Layouts/magazine-float.html">Magazine Float Layout</a></li>
-<li><a href="/Layouts/holy-grail-comparison.html">Holy Grail Layout</a></li>
-<li><a href="/Layouts/dashboard-grid.html">Dashboard Layout</a></li>
-<li><a href="/Layouts/portfolio-mixed.html">Portfolio Layout</a></li>
-<li><a href="/Layouts/responsive-demo.html">Responsive Demo</a></li>
-</ul>
+<div class="container">
+
+<div class="section">
 
 <h2>Exercises</h2>
 
 <ul>
 
 <li><a href="/excercises/display-exercises.html">Display Exercises</a></li>
-
 <li><a href="/excercises/float-exercises.html">Float Exercises</a></li>
-
 <li><a href="/excercises/position-exercises.html">Position Exercises</a></li>
-
 <li><a href="/excercises/flexbox-exercises.html">Flexbox Exercises</a></li>
-
 <li><a href="/excercises/grid-exercises.html">Grid Exercises</a></li>
-
 <li><a href="/excercises/media-query-exercises.html">Media Query Exercises</a></li>
+<li><a href="/excercises/responsive-images.html">Responsive Images</a></li>
+<li><a href="/excercises/dark-mode.html">Dark Mode</a></li>
+<li><a href="/excercises/print-style.html">Print Style</a></li>
 
 </ul>
 
+</div>
+
+<div class="section">
+
+<h2>Layouts</h2>
+
+<ul>
+
+<li><a href="/Layouts/magazine-float.html">Magazine Layout</a></li>
+<li><a href="/Layouts/dashboard-grid.html">Dashboard Layout</a></li>
+<li><a href="/Layouts/photo-gallery.html">Photo Gallery</a></li>
+<li><a href="/Layouts/ecommerce-grid.html">Ecommerce Grid</a></li>
+<li><a href="/Layouts/flexbox-form.html">Flexbox Form</a></li>
+<li><a href="/Layouts/responsive-table.html">Responsive Table</a></li>
+<li><a href="/Layouts/portfolio-mixed.html">Portfolio Layout</a></li>
+<li><a href="/Layouts/holy-grail-comparison.html">Holy Grail Layout</a></li>
+<li><a href="/Layouts/responsive-demo.html">Responsive Demo</a></li>
+
+</ul>
+
+</div>
+
+</div>
+
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-

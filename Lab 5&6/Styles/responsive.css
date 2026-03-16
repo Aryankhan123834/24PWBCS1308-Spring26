@@ -1,11 +1,15 @@
-.card-container{
-display:flex;
-flex-wrap:wrap;
+/* styles/responsive.css */
+
+/* Tablet breakpoint */
+@media (min-width: 768px) {
+    .flex-item {
+        flex: 1 1 250px;
+    }
 }
 
-.card{
-flex:1 1 300px;
-background:#eee;
-margin:10px;
-padding:20px;
+/* Desktop breakpoint */
+@media (min-width: 1024px) {
+    .flex-item {
+        flex: 1 1 300px;
+    }
 }

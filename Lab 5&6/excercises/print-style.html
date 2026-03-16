@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Print Style Demo</title>
+
+<style>
+
+body{
+font-family:Arial;
+}
+
+nav{
+background:black;
+color:white;
+padding:10px;
+}
+
+@media print{
+
+nav{
+display:none;
+}
+
+body{
+font-size:20px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>Navigation Menu</nav>
+
+<h1>Print Style Example</h1>
+<p>When you print this page the navigation disappears.</p>
+
+</body>
+
+</html>
