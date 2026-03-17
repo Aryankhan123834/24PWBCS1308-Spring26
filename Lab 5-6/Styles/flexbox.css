@@ -1,0 +1,28 @@
+/* styles/flexbox.css */
+
+/* Flex container */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* Flex items */
+.flex-item {
+    flex: 1 1 200px;  /* grow, shrink, base width */
+    background-color: #4CAF50;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.flex-item:hover {
+    transform: scale(1.05);
+}
